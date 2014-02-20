@@ -1,0 +1,126 @@
+// Components
+// Modular components and their states. 
+// These pieces should be able to be used anywhere. Things like: icons, buttons, messages, etc.
+
+
+// Link styles
+
+// form
+	// first sign up
+:-moz-placeholder  { color: $secondary-blue; }
+::-moz-placeholder  { color: $secondary-blue; }
+:-ms-input-placeholder  { color: $primary-color; }
+::-webkit-input-placeholder { color: $primary-color; }
+
+input.submitbtn {
+	display:inline-block;
+	width:110px;
+	background-color:$primary-color;
+	border: solid 1px $primary-color;
+	color:#fff;
+	font-size:16px;
+	font-style:normal;
+	padding:7px 12px;
+	margin-bottom:15px;
+	letter-spacing:.75px;
+	text-align:center;
+	font-size:$standard-font-size;
+	border-radius:0px;
+	font-family:$primary-sans;
+	font-weight:400;
+	}
+input.submitbtn:hover {
+	color:$secondary-blue;
+}
+input.forminput {
+	display:inline-block;
+	width:287px;
+	color:$secondary-color;
+	background-color:transparentize(#fff, .15);
+	border: none;
+	font-size:16px;
+	font-style:normal;
+	padding:8px 13px;
+	margin-bottom:15px;
+	letter-spacing:.75px;
+	text-align:left;
+	font-size:$standard-font-size;
+	border-radius:0px;
+	font-family:$primary-sans;
+	font-weight:400;
+}
+
+	// second sign up
+input.secondsubmitbtn {
+	display:inline-block;
+	width:110px;
+	border:1px solid rgba(0,0,0,0);
+	background-color:$secondary-blue;
+	color:#fff;
+	font-size:16px;
+	font-style:normal;
+	padding:7px 12px;
+	margin-bottom:15px;
+	letter-spacing:.75px;
+	text-align:center;
+	font-size:$standard-font-size;
+	border-radius:0px;
+	font-family:$primary-sans;
+	font-weight:400;
+	}
+input.secondsubmitbtn:hover {
+	color:$primary-color;
+}
+input.secondforminput {
+	display:inline-block;
+	width:287px;
+	background-color:#fff;
+	border: none;
+	color:$primary-color;
+	font-size:16px;
+	font-style:normal;
+	padding:8px 13px;
+	margin-bottom:15px;
+	letter-spacing:.75px;
+	text-align:left;
+	font-size:$standard-font-size;
+	border-radius:0px;
+	font-family:$primary-sans;
+	font-weight:400;
+	
+}
+
+
+// pace
+
+.pace .pace-progress {
+  background: $primary-color;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  height: 2px;
+}
+
+.pace-inactive {
+  display: none;
+}
+// btns
+
+p.bluebrderbtn {
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:30px;
+	display:block;
+	a {
+		border: solid 1px #fff;
+		padding:10px;
+		color:#fff;
+		font-family:$primary-sans;
+		font-weight:400;	
+	}
+	a:hover {
+		color:$secondary-blue;
+	}
+}
+

@@ -1,0 +1,52 @@
+// Shared styles and dependencies
+// Globaly used variables, mixins, and functions
+
+
+// Metrics
+
+
+// Typography
+	$primary-sans:			"futura-pt", Futura Std, Futura, Arial, sans-serif;
+	$primary-serif:			"lexia",georgia, serif;
+
+	// [Compass] Vertical rhythm set up
+	// Change these values to whatever you want for your proj
+	// $base-font-size:				16px;
+	// $base-line-height:				24px;
+	// $default-rhythm-border-style:	solid;
+	// $relative-font-sizing:			true;
+
+// Colors
+	// The impel standard colors
+	$primary-color:		#4dacde; // blue accent
+	$secondary-color:	#333333; // gray for main fonts
+	$tertiary-color:	#7e7a7a; // lighter gray for fonts
+	$secondary-blue:	#377B9E; // accent
+	
+	$gray-font:			#6f6f6f; // main section p
+	$error-text:		#de4d4d; // error text
+	$darkest:			#1e1e1e; // darkest
+
+	$light-gray:		#c9c9c9; // arrows, vertical border on homepage
+	$middle-border:		#dcdcdd; // border for status bar
+	$dark-border: 		#c2c3c4; // border for top and footer and sections
+	$light-border:		#e0e1e2; // border for li's
+
+	$light-font:		#cdcdcd; // font in the search bars
+
+	$content-box-color:	#f8f8f8; // content boxs
+	$background-color:	#ececec; // background
+
+	$large-font-size:		23px; // headers
+	$standard-font-size:	18px; // main list items
+	$smaller-font-size: 	15px; // other content fonts
+
+
+
+
+@mixin inner-content {
+	max-width:1200px;
+	width:90%;
+	margin:0 auto;
+}
+

@@ -1,0 +1,25 @@
+// Responsive
+// Adjustments to type sizes, grids, and images.
+
+@media all and (max-width: 752px) {
+	.threecolsection .valuecol, .threecolsection .valuecol.last {
+		width:100%;
+		margin-right: 0px;
+	}
+	.threecolsection {
+		margin-top:50px;
+		padding-top:10px;
+		margin-bottom:50px;
+		padding-bottom:10px
+	}
+}
+@media all and (max-width: 562px) {
+	.end .end_contents .leftend{
+		width:65%;
+	}
+}
+// @media all and (max-width: 446px) {
+// 	header{
+// 		height:880px;
+// 	}
+// }

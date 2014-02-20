@@ -1,0 +1,243 @@
+
+// Foundation
+// Styles for setting up the structure of the entire website
+
+// Normalize gets pulled in Bootstrap
+// @import 'normalize';
+
+// Border-box-sizing
+@import 'border-box-sizing';
+
+
+// Base typography
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: .010em;
+	color:$secondary-color;
+	font-family:$primary-sans;
+	line-height:1.2em;
+}
+ul {
+	list-style:none;
+	padding-left:0px;
+}
+a {
+	font-size:$standard-font-size;
+	text-decoration:none;
+	color:$secondary-color;
+}
+
+// Base CSS
+body {
+	background-color:$background-color;
+	font-family:"futura";
+}
+img {
+	max-width:100%;
+}
+
+
+// Header
+
+header {
+	max-width:1900px;
+	width:100%;
+	background-color:$secondary-color;
+	height:auto;
+	background-image:url(../images/header_background.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	.header_contents {
+		@include inner-content;
+		text-align:center;
+		padding-top:20px;
+		h6 {
+			margin-top:0px;
+			margin-bottom:0px;
+		}
+		h2 {
+			color:#fff;
+			font-family:$primary-sans;
+			font-weight:300;
+			font-size:30px;
+			margin-top:10px;
+			margin-bottom:13px;
+		}
+		p {
+			color:#fff;
+			font-family:$primary-sans;
+			font-weight:100;
+			font-size:20px;
+			margin-top:10px;
+			margin-bottom:13px;
+		}
+		h6 img {
+			margin-bottom:-4px;
+		}
+		.firstsignup {
+			margin:25px 0px 5px 0px;
+		}
+	}
+}
+.maincontent {
+	height:auto;
+}
+.threecolsection {
+	@include inner-content;
+	text-align:center;
+	// background-color:#715615;
+	margin-top:25px;
+	padding-top:30px;
+	// border-top:1px solid $middle-border;
+	// border-bottom:1px solid $middle-border;
+	padding-bottom:30px;
+	h2 {
+		color:$primary-color;
+		font-size:30px;
+		font-weight:100;
+		font-family:$primary-serif;
+		font-weight:300;
+		letter-spacing:.5px;
+		margin-bottom:10px;
+		margin-top:10px;
+	}
+	h6 {
+		margin-bottom:0px;
+	}
+	p {
+		color:$tertiary-color;
+		font-weight:400;
+		margin-top:10px;
+		font-size:$standard-font-size;
+		font-family:$primary-sans;
+	}
+	.valuecol {
+		display:inline-block;
+		width:29%;
+		margin-right:5%;
+		// background-color:#000;
+		vertical-align:top;
+	}
+	.valuecol.last {
+		margin-right:0px;
+	}
+}
+.second_content {
+	background-color:#f8f8f8;
+	padding-top:30px;
+	padding-bottom:40px;
+	border-top:1px solid $middle-border;
+}
+.twocolsection {
+	@include inner-content;
+	text-align:center;
+	margin-top:25px;
+	.onecol, .twocol {
+		display:block;
+	}
+	.onecol {
+		width:100%;
+	}
+	.twocol {
+		vertical-align:middle;
+		width:100%;
+		margin-top:30px;
+	}
+	h2 {
+		color:$primary-color;
+		font-size:30px;
+		font-weight:100;
+		font-family:$primary-serif;
+		font-weight:300;
+		letter-spacing:.5px;
+		margin-bottom:10px;
+		margin-top:10px;
+	}
+	h6 {
+		margin-bottom:0px;
+	}
+	p {
+		color:$tertiary-color;
+		font-weight:400;
+		margin-top:10px;
+		font-size:$standard-font-size;
+		font-family:$primary-sans;
+	}
+}
+footer {
+	background-color:$primary-color;
+	height:auto;
+	clear:both;
+	.footer_contents {
+		@include inner-content;
+		text-align:center;
+		padding-top:25px;
+		padding-bottom:25px;
+		h2 {
+			color:#fff;
+			font-family:$primary-serif;
+			font-weight:300;
+			font-size:30px;
+			margin-top:0px;
+			margin-bottom:0px;
+		}
+		p {
+		color:#fff;
+		font-family:$primary-sans;
+		font-weight:400;
+		font-size:18px;
+		}
+		.leftend {
+			text-align:left;
+			margin-top:-5px;
+			p {
+				color:transparentize(#fff, .25);
+				margin:0px;
+				font-size:14px;
+				font-style:italic;
+				font-family:$primary-serif;
+				font-weight:300;
+			}
+		}
+	}
+}
+
+
+// .end {
+// 	background-color:$darkest;
+// 	height:60px;
+// 	p, a {
+// 		color:#fff;
+// 		margin-top:0px;
+// 		font-family:$primary-serif;
+// 		font-weight:300;
+// 		font-style:italic;
+// 	}
+// 	a:hover {
+// 		color:$primary-color;
+// 	}
+// 	.end_contents {
+// 		@include inner-content;
+// 		padding-top:18px;
+// 		.leftend {
+// 			display:inline-block;
+// 			width:66%;
+// 		}
+// 		.rightend {
+// 			display:inline-block;
+// 			width:33%;
+// 			text-align:right;
+// 		}
+// 	}
+// }
+
+
+
+
+
+
+

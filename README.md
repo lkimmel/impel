@@ -1,4 +1,8 @@
-impel
-=====
+impel Alpha
+============
 
-impel splash page
+
+Active by default are:
+- SASS
+- Normalize.css
+
